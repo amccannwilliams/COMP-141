@@ -1,0 +1,11 @@
+# Condition to validate the file name as a proper Java class name 
+
+# ( Basically, make sure its first character is an upper case letter. ) 
+
+if [[ @ ]]; then 
+
+  echo "@" | rm
+
+  exit 2 
+
+fi 
